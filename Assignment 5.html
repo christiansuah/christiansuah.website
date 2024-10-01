@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" herf=sheetcss">
+<style>
+body {
+background-color: orange;
+background-attachment: fixed;
+} 
+h1 {
+   color: Yellow;
+   margin-left: 40px;
+}
+</style>
+</head>
+<body>
+    <title>Styled Links and Lists</title>
+    <style>
+        /* Link styles */
+        a:link {
+            color: light gray;
+            background-color: yellow;
+            text-decoration: New Time Roman;
+            font-family: Arial, sans-serif;
+        }
+        a:visited {
+            color: purple;
+            background-color: lightgray;
+        }
+        a:hover {
+            color: red;
+            background-color: lightblue;
+        }
+        a:active {
+            color: white;
+            background-color: black;
+        }
+
+        /* List styles */
+        ul {
+            list-style-type: circle;
+        }
+        ol {
+            list-style-type: upper-roman;
+        }
+
+        /* Table styles */
+        table {
+            width: 50%;
+            height: 150px;
+            border-collapse: seperate;
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Box styles */
+        .box {
+           border: 1px solid #ccc;
+           border-radius: 10px;
+           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+           padding: 20px;
+           margin: 20px;
+           transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+.box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .box1 {
+            border: 10px solid black;
+            padding: 20px;
+			display: seperate;
+        }
+        .box2 {
+            border: 20px solid black;
+			display: seperate;
+        }
+        .box3 {
+            border: 10px solid black;
+			display: seperate;
+        }
+    </style>
+    </head>
+<body>
+    <h1>Links to Popular Websites</h1>
+    <ul>
+        <li><a href="https://www.google.com" target="_blank">Google</a></li>
+        <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+        <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+        <li><a href="https://www.igihe.com" target="_blank">Igihe</a></li>
+        <li><a href="https://www.irembo.gov.rw" target="_blank">Irembo</a></li>
+        <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+        <li><a href="https://stackoverflow.com" target="_blank">Stack Overflow</a></li>
+    </ul>
+
+    <h2>My Favorite Courses</h2>
+    <ul>
+        <li>Web Design</li>
+        <li>Mathematic</li>
+    </ul>
+
+    <h2>My Favorite Foods</h2>
+	<div class="center">
+        <li>Palm Butter</li>
+        <li>Potatoes Green</li>
+		<li>Cassava Leaf</li>
+		<li>Okra Sauce</li>
+		<li>Bitter Balls Red Oil</li>
+    </div>
+
+    <h2>Styled Table</h2>
+    <table>
+        <tr>
+            <th>Games</th>
+            <th>Deodorants</th>
+            <th>Breakfast</th>
+        </tr>
+        <tr>
+            <td>Soccer</td>
+            <td>Body Spray</td>
+            <td>Cornflakes</td>
+        </tr>
+        <tr>
+            <td>Basketball</td>
+            <td>Bath Soap</td>
+            <td>Fried Eggs</td>
+        </tr>
+    </table>
+
+    <h2>Styled Boxes</h2>
+    <div class="box box1"</div>
+    <div class="box box2"</div>
+    <div class="box box3"</div>
+
+    <h2>Links to Other Pages</h2>
+    <ul>
+        <li><a href="page1.html" target="_blank"></a></li>
+        <li><a href="page2.html" target="_blank"></a></li>
+    </ul>
+</body>
+</html>
